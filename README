@@ -1,0 +1,9 @@
+Helps cross-compiling scala to java6 and java7.
+
+To build this code, get and install SBT from 
+	https://github.com/harrah/xsbt
+
+Use these commands to build:
+	git clone git@github.com:ritschwumm/sccompat.git
+	cd sccompat
+	sbt publish-local
